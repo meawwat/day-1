@@ -1,34 +1,34 @@
-Start Day1
-- àÃÔèÁâ»Ãà¨ç¤¤ÇÃ¨Ð¤ØÂàÃ×èÍ§
-1. â¤Ã§ÊÃéÒ§â¿Åà´ÍÃì
-	> â»Ãà¨ç¤à´ÕÂÇ¡Ñ¹äÁè¤ÇÃáÂ¡ Repo
-2. ¡ÒÃãªé Trunk / Branch / Tag
-	> Branch äÁè¤ÇÃà¡Ô¹ 3 «Öè§ 3 ¡ç¶×ÍÇèÒàÂÍÐÁÒ¡
-	> Tag µÃ§ Release
-3. Merge ãËéºèÍÂ·ÕèÊØ´
-	> ¤ØÂ¡Ñ¹àÇÅÒ push â¤é´¢Öé¹
-	> ¤ÇÃ¨ÐÁÕ Unit Test à¾×èÍàªç¤ÇèÒ¡ÃÐ·ºäËÁ
-4. Commit Message á¹Ð¹ÓãËé´ÙµÑÇÍÂèÒ§¨Ò¡ Mozilla
+ï»¿Start Day1
+- à¹€à¸£à¸´à¹ˆà¸¡à¹‚à¸›à¸£à¹€à¸ˆà¹‡à¸„à¸„à¸§à¸£à¸ˆà¸°à¸„à¸¸à¸¢à¹€à¸£à¸·à¹ˆà¸­à¸‡
+1. à¹‚à¸„à¸£à¸‡à¸ªà¸£à¹‰à¸²à¸‡à¹‚à¸Ÿà¸¥à¹€à¸”à¸­à¸£à¹Œ
+	> à¹‚à¸›à¸£à¹€à¸ˆà¹‡à¸„à¹€à¸”à¸µà¸¢à¸§à¸à¸±à¸™à¹„à¸¡à¹ˆà¸„à¸§à¸£à¹à¸¢à¸ Repo
+2. à¸à¸²à¸£à¹ƒà¸Šà¹‰ Trunk / Branch / Tag
+	> Branch à¹„à¸¡à¹ˆà¸„à¸§à¸£à¹€à¸à¸´à¸™ 3 à¸‹à¸¶à¹ˆà¸‡ 3 à¸à¹‡à¸–à¸·à¸­à¸§à¹ˆà¸²à¹€à¸¢à¸­à¸°à¸¡à¸²à¸
+	> Tag à¸•à¸£à¸‡ Release
+3. Merge à¹ƒà¸«à¹‰à¸šà¹ˆà¸­à¸¢à¸—à¸µà¹ˆà¸ªà¸¸à¸”
+	> à¸„à¸¸à¸¢à¸à¸±à¸™à¹€à¸§à¸¥à¸² push à¹‚à¸„à¹‰à¸”à¸‚à¸¶à¹‰à¸™
+	> à¸„à¸§à¸£à¸ˆà¸°à¸¡à¸µ Unit Test à¹€à¸žà¸·à¹ˆà¸­à¹€à¸Šà¹‡à¸„à¸§à¹ˆà¸²à¸à¸£à¸°à¸—à¸šà¹„à¸«à¸¡
+4. Commit Message à¹à¸™à¸°à¸™à¸³à¹ƒà¸«à¹‰à¸”à¸¹à¸•à¸±à¸§à¸­à¸¢à¹ˆà¸²à¸‡à¸ˆà¸²à¸ Mozilla
 - Git in Action => Meaning
-- »ÃÐà´ç¹ Source Control ÁÕÍÂÙèã¹ CMMI & ISO
-- ¶éÒãªé rebase / cherry pick áÊ´§ÇèÒÁÕÍÐäÃ¼Ô´»¡µÔ ¤ÇÃ¡ÅÑºä»¤ØÂ¡Ñ¹
-- git status / git add / git push / git pull ãªéºèÍÂ
-- wakatime ãªé¨ÑºàÇÅÒà¢ÕÂ¹â¤é´
+- à¸›à¸£à¸°à¹€à¸”à¹‡à¸™ Source Control à¸¡à¸µà¸­à¸¢à¸¹à¹ˆà¹ƒà¸™ CMMI & ISO
+- à¸–à¹‰à¸²à¹ƒà¸Šà¹‰ rebase / cherry pick à¹à¸ªà¸”à¸‡à¸§à¹ˆà¸²à¸¡à¸µà¸­à¸°à¹„à¸£à¸œà¸´à¸”à¸›à¸à¸•à¸´ à¸„à¸§à¸£à¸à¸¥à¸±à¸šà¹„à¸›à¸„à¸¸à¸¢à¸à¸±à¸™
+- git status / git add / git push / git pull à¹ƒà¸Šà¹‰à¸šà¹ˆà¸­à¸¢
+- wakatime à¹ƒà¸Šà¹‰à¸ˆà¸±à¸šà¹€à¸§à¸¥à¸²à¹€à¸‚à¸µà¸¢à¸™à¹‚à¸„à¹‰à¸”
 - git bash
 - ls -la = dir
-- ls µÓáË¹è§»Ñ¨¨ØºÑ¹
-- git status = ´Ù status
-- git config = ´Ù param
-- git config -l = ´Ù config
+- ls à¸•à¸³à¹à¸«à¸™à¹ˆà¸‡à¸›à¸±à¸ˆà¸ˆà¸¸à¸šà¸±à¸™
+- git status = à¸”à¸¹ status
+- git config = à¸”à¸¹ param
+- git config -l = à¸”à¸¹ config
 - git config --global user.name "Chatchai"
 - git config --global user.email "vertasoft-chatchai@outlook.com"
-- git add test.txt = stage ä¿Åì
-- git rm --cached test.txt = unstage ä¿Åì
-- git diff = ´Ù¤ÇÒÁµèÒ§
+- git add test.txt = stage à¹„à¸Ÿà¸¥à¹Œ
+- git rm --cached test.txt = unstage à¹„à¸Ÿà¸¥à¹Œ
+- git diff = à¸”à¸¹à¸„à¸§à¸²à¸¡à¸•à¹ˆà¸²à¸‡
 - git checkout -- test.txt = discard
-- tail test.txt = ´Ùà¹×éÍËÒã¹ä¿Åì
-- git diff --cached = ´Ù¤ÇÒÁµèÒ§ÊÔè§·Õè add ä»áÅéÇ
-- git log = ´Ù history
+- tail test.txt = à¸”à¸¹à¹€à¸™à¸·à¹‰à¸­à¸«à¸²à¹ƒà¸™à¹„à¸Ÿà¸¥à¹Œ
+- git diff --cached = à¸”à¸¹à¸„à¸§à¸²à¸¡à¸•à¹ˆà¸²à¸‡à¸ªà¸´à¹ˆà¸‡à¸—à¸µà¹ˆ add à¹„à¸›à¹à¸¥à¹‰à¸§
+- git log = à¸”à¸¹ history
 - git commit -m "message"
 - git rm hello.txt
 - ssh-keygen -t rsa -c "hydeqoo@hotmail.com"
@@ -41,7 +41,7 @@ Start Day1
 - git log --oneline
 - git commit -omend
 - shift q => wqs
-- touch fix_bug01 ÊÃéÒ§ä¿Åì
+- touch fix_bug01 à¸ªà¸£à¹‰à¸²à¸‡à¹„à¸Ÿà¸¥à¹Œ
 - git add .
 - git commit -m "Fixed #1 ... test"
 - git log --oneline --decorate --graph
@@ -50,4 +50,4 @@ Start Day1
 - git log --author=Chatchai
 - git log --grep="message"
 - git log -S"content"
-- git help push => à»Ô´ manual
+- git help push => à¹€à¸›à¸´à¸” manual
