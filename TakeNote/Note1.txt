@@ -1,4 +1,5 @@
 ﻿Start Day1
+
 - เริ่มโปรเจ็คควรจะคุยเรื่อง
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
@@ -44,10 +45,10 @@
 - touch fix_bug01 สร้างไฟล์
 - git add .
 - git commit -m "Fixed #1 ... test"
-- git log --oneline --decorate --graph
+- git log --one --decorate --graph
 - git log --stat
 - git log -p
 - git log --author=Chatchai
 - git log --grep="message"
-- git log -S"content"
-- git help push => เปิด manual
+- git log --"content"
+- git help push => เปิด mannual
