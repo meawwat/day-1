@@ -1,0 +1,50 @@
+﻿Start Day1
+
+- เริ่มโปรเจ็คควรจะคุยเรื่อง
+
+1. โครงสร้างโฟลเดอร์
+	> โปรเจ็คเดียวกันไม่ควรแยก Repo
+2. การใช้ Trunk / Branch / Tag
+	> Branch ไม่ควรเกิน 3 ซึ่ง 3 ก็ถือว่าเยอะมาก
+	> Tag ตรง Release
+3. Merge ให้บ่อยที่สุด
+	> คุยกันเวลา push โค้ดขึ้น
+	> ควรจะมี Unit Test เพื่อเช็คว่ากระทบไหม
+4. Commit Message แนะนำให้ดูตัวอย่างจาก Mozilla
+
+	Local Git
+
+- git status = ดู status
+- git config = ดู param
+- git config -l = ดู config
+- git config --global user.name "Chatchai"
+- git config --global user.email "vertasoft-chatchai@outlook.com"
+- git add test.txt = stage ไฟล์
+- git rm --cached test.txt = unstage ไฟล์
+- git diff = ดูความต่าง
+- git checkout -- test.txt = discard
+- tail test.txt = ดูเนื้อหาในไฟล์
+- git diff --cached = ดูความต่างสิ่งที่ add ไปแล้ว
+- git log = ดู history
+- git commit -m "message"
+- git rm hello.txt
+- ssh-keygen -t rsa -c "hydeqoo@hotmail.com"
+- ls -la ~/.ssh
+- cat ~/.ssh/id_rsa.pub
+- ssh -T git@github.com = Add GitHub
+- git remote <action> <name remote> url
+- git remote add gitnote
+- git push gitnote master
+- git log --oneline
+- git commit -omend
+- shift q => wqs
+- touch fix_bug01 สร้างไฟล์
+- git add .
+- git commit -m "Fixed #1 ... test"
+- git log --one --decorate --graph
+- git log --stat
+- git log -p
+- git log --author=Chatchai
+- git log --grep="message"
+- git log --"content"
+- git help push => เปิด mannual
