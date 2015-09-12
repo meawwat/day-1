@@ -1,6 +1,9 @@
 ﻿Start Day1
 
 เริ่ม Project
+=======
+- เริ่มโปรเจ็คควรจะคุยเรื่อง
+
 1. โครงสร้างโฟลเดอร์
 	> โปรเจ็คเดียวกันไม่ควรแยก Repo
 2. การใช้ Trunk / Branch / Tag
@@ -15,6 +18,19 @@
 - Git in Action => Meaning
 - Pro Git => ฟรี
 
+Local Git
+- git status = ดู status
+- git config = ดู param
+- git config -l = ดู config
+- git config --global user.name "Chatchai"
+- git config --global user.email "vertasoft-chatchai@outlook.com"
+- git add test.txt = stage ไฟล์
+- git rm --cached test.txt = unstage ไฟล์
+- git diff = ดูความต่าง
+- git checkout -- test.txt = discard
+- tail test.txt = ดูเนื้อหาในไฟล์
+- git diff --cached = ดูความต่างสิ่งที่ add ไปแล้ว
+
 Remote Git 
 - ssh-keygen -t rsa -c "hydeqoo@hotmail.com" => สร้าง ssh key
 - ls -la ~/.ssh => หา ssh
@@ -23,3 +39,35 @@ Remote Git
 - git remote <action> <name remote> url
 - git remote add gitnote git@github.com:meawwat/day-1.git
 - git push gitnote master => ดัน code ขึ้น gitnote
+
+Git Log
+see log history
+
+--max-count=<number>
+
+    Limit the number of commits to output.
+--skip=<number>
+
+    Skip number commits before starting to show the commit output.
+--since=<date>
+--after=<date>
+
+    Show commits more recent than a specific date.
+--until=<date>
+--before=<date>
+
+    Show commits older than a specific date.
+--author=<pattern>
+--committer=<pattern>
+
+    Limit the commits output to ones with author/committer header lines that match the specified pattern (regular expression). With more than one --author=<pattern>, commits whose author matches any of the given patterns are chosen (similarly for multiple --committer=<pattern>).
+--grep-reflog=<pattern>
+
+    Limit the commits output to ones with reflog entries that match the specified pattern (regular expression). With more than one --grep-reflog, commits whose reflog message matches any of the given patterns are chosen. It is an error to use this option unless --walk-reflogs is in use.
+--grep=<pattern>
+
+    Limit the commits output to ones with log message that matches the specified pattern (regular expression). With more than one --grep=<pattern>, commits whose message matches any of the given patterns are chosen (but see --all-match).
+
+    When --show-notes is in effect, the message from the notes is matched as if it were part of the log message.
+
+- git help push => เปิด mannual
