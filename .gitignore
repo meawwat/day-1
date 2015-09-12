@@ -1,1 +1,4 @@
 test.txt
+.gitignore.bak
+.gitignore.swo
+.gitignore.swp
